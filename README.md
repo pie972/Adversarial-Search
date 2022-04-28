@@ -104,8 +104,7 @@ Since we have seen the fully visible case, let us check out the partially visibl
 ![](Monte%20Carlo%20algorithm%20stages.PNG)
 ###### Figure 7: Monte Carlo algorithm stages <br />
 
-A detailed pdf about Improving Monte Carlo Tree Search with Artificial Neural Networks without Heuristics: 
-![Here](github.com/pie972/Adversarial-Search/blob/main/Improving%20Monte%20Carlo%20Tree%20Search%20with%20Artificial%20Neural%20Networks%20without%20Heuristics.pdf)
+A detailed pdf about Improving Monte Carlo Tree Search with Artificial Neural Networks without Heuristics: github.com/pie972/Adversarial-Search/blob/main/Improving%20Monte%20Carlo%20Tree%20Search%20with%20Artificial%20Neural%20Networks%20without%20Heuristics.pdf
 
 
 <br /><br />
