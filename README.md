@@ -46,7 +46,7 @@ function minimax(board, depth, isMaximizingPlayer):
             bestVal = min( bestVal, value) 
         return bestVal
 ```
-######Figure 1: minimax function
+###### Figure 1: minimax function
 
 
 <br /><br /><br />
