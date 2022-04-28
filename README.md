@@ -1,8 +1,11 @@
 # Table of Content
 <!-- toc -->
 * [I. Introduction](#introduction)
-* [II.	Linkage](##linkage)
-  * [template](#template)
+* [II.	Linkage](#linkage)
+* [III.	Approaches](#approaches)
+  * [a.	Fully Visible Case](#fully-visible-case)
+  * [b.	Partially Visible Case](#partially-visible-case)
+  * [c.	Reinforcement Learning Case](#reinforcement-learning-case)
 * [API](#api)
   * [toc](#toc)
 <!-- toc stop -->
