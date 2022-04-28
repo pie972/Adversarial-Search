@@ -1,6 +1,6 @@
 # Table of Content
 <!-- toc -->
-* [I.	Introduction](##introduction)
+* [Introduction](#introduction)
 * [Options](#options)
   * [template](#template)
 * [API](#api)
