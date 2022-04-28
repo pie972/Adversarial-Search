@@ -3,7 +3,7 @@
 * [I. Introduction](#introduction)
 * [II.	Linkage](#linkage)
 * [III.	Approaches](#approaches)
-  * [a.	Fully Visible Case](#1-fully-visible-case)
+  * [a.	Fully Visible Case](#1.-fully-visible-case)
   * [b.	Partially Visible Case](#2-partially-visible-case)
   * [c.	Reinforcement Learning Case](#3-reinforcement-learning-case)
 * [IV.	Prospects](#prospects)
@@ -34,7 +34,7 @@ This paper is straightforwardly related to the third unit we have discussed in c
 
 As mentioned previously, there are various algorithms that were explained to outperform humans in two-player zero-sum games. In the following, we will partition the approaches into three areas: fully visible case, partially visible case, and use of reinforcement learning. <br /><br />
 
-#### 1 Fully Visible Case
+#### 1. Fully Visible Case
 The fully visible case is when the moves of the computer and the adversary are known, and if there are various moves, then we go through them in a particular order which is the depth-first traversal order. The main algorithm we will talk about in this approach is the minimax algorithm. As we have seen previously in the introduction, the idea of the minimax algorithm was first proposed by Shannon in 1949. This algorithm utilizes straightforward approaches; it is utilized on trees, where each node is a board position, and the children of a node are the possible board positions given the possible arrangement of moves. After the tree is built, the algorithm assigns a value to every node. For that, the algorithm will take as input the board position, the depth of the tree, and the party concerned. For instance, in chess, we should determine it is the dark or the white turn (the party concerned). We will require the depth of the tree on the grounds that the algorithm is written recursively, as we can see below in Figure 1. <br /><br />
 ```c
 function minimax(board, depth, isMaximizingPlayer):
