@@ -1,10 +1,8 @@
 # Table of Content
 <!-- toc -->
-* [I.	Introduction](#I.-Introduction)
-* [Usage](#usage)
+* [I.	Introduction](##i.-introduction)
 * [Options](#options)
   * [template](#template)
-  * [allowedChars](#allowedchars)
 * [API](#api)
   * [toc](#toc)
 <!-- toc stop -->
