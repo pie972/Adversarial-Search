@@ -1,7 +1,7 @@
 # Adversarial-Search #
 ## Research Paper ##
 
-It will be uploaded soon!
+COMING SOON!
 
 ## WHEN to Contribute? ##
 You are ***always welcome*** to contribute.
