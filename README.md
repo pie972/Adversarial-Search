@@ -23,8 +23,6 @@ As mentioned previously, there are various algorithms that were explained to out
 
 1.	Fully Visible Case <br />
 The fully visible case is when the moves of the computer and the adversary are known, and if there are various moves, then we go through them in a particular order which is the depth-first traversal order. The main algorithm we will talk about in this approach is the minimax algorithm. As we have seen previously in the introduction, the idea of the minimax algorithm was first proposed by Shannon in 1949. This algorithm utilizes straightforward approaches; it is utilized on trees, where each node is a board position, and the children of a node are the possible board positions given the possible arrangement of moves. After the tree is built, the algorithm assigns a value to every node. For that, the algorithm will take as input the board position, the depth of the tree, and the party concerned. For instance, in chess, we should determine it is the dark or the white turn (the party concerned). We will require the depth of the tree on the grounds that the algorithm is written recursively, as we can see below in Figure 1. <br /><br />
-![image](https://user-images.githubusercontent.com/78828566/165815870-3365e791-23cb-4ab0-9ce5-a088be5d25fb.png)
-
 ```c
 function minimax(board, depth, isMaximizingPlayer):
 
@@ -52,7 +50,6 @@ To show how the algorithm works, we will take the chess example where the root/f
 ###### Figure 2: minimax tree <br />
 
 In this model, we are representing the white nodes with circles and the black nodes with squares. We see that the leaf nodes of the left half of the tree (we start from the left because, in this algorithm, we are using a DFS traversal as we mentioned before) have the values 10 and +∞ respectively. Since the node before them is black (black pieces turn) then, at that point, we are going to use a minimum function, thus it will pick the move that will provide the board with a value of 10. A similar logic applies if we look at the white node whose children are black nodes 10 and 5. The white node will attempt to maximize between the two values thus it will pick the move that will prompt the board with value 10. This activity keeps repeating until we arrive at the root node. The algorithm can't run until we realize what each board position in every one of these nodes is. Thus, we can expect that if we take an ordinary chess game with a depth of 10, for example, and a branching factor of 35, calculating [35^(10) – 1] isn't something easily done given the time constraint chess players have; the time varies from a contest to another, for instance, 120 mins for the initial 40 moves, and 30 mins to finish the remainder of the game, and if the time for a player expires, they lose the game as a consequence. From this clarification, we would already be able to see a few issues with the minimax algorithm, which are the depth constraint and the number of computations performed. To take care of this issue, the algorithm has been enhanced and exposed under an alternate name: alpha-beta pruning. The alpha-beta pruning algorithm utilizes a similar minimum/maximum logic but intelligently. <br /><br />
-![image](https://user-images.githubusercontent.com/78828566/165815947-47f8bdc3-5d42-4c98-bc94-369e5fbc82d8.png)
 ```c
 function minimax(node, depth, isMaximizingPlayer, alpha, beta):
 
