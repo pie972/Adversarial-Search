@@ -48,6 +48,9 @@ function minimax(board, depth, isMaximizingPlayer):
 ```
 ###### Figure 1: minimax function
 
+To show how the algorithm works, we will take the chess example where the root/first move is given to the white pieces, and there are just two possible moves from each position (The branching factor is around 35, which will make the tree too huge to even consider drawing). Since the white pieces are the first pieces to begin, then they will attempt to maximize between the two values in their children’s nodes, these last options are the nodes where it is the black pieces turn to play which implies that they will attempt to minimize between the values of their two children respectively, and it goes like that. This activity of maximizing and minimizing will continue to get called until we arrive at the leaf nodes. At this point, we will have what we call a "static assessment", or in different words, we will assign a value to these board positions. This task is done in various ways, yet in the case of chess, we will utilize the same as what Shannon proposed in his paper in 1949. After that, we will go up in the tree and assign values to the parents' nodes from the maximum/minimum functions related to every single one of them. This model can be better shown in the below tree in Figure 2.
+![](minimax%20tree%20picture.PNG)
+
 
 <br /><br /><br />
 
