@@ -1,6 +1,6 @@
 # Table of Content
 <!-- toc -->
-* [I. Introduction](#i-introduction)
+* [I. Introduction](#i-\-introduction)
 * [II.	Linkage](#ii-linkage)
 * [III.	Approaches](#iii-approaches)
   * [a.	Fully Visible Case](#1-fully-visible-case)
@@ -14,7 +14,7 @@
 
 ## Research Paper ##
 
-### I Introduction
+### I \ Introduction
 
 Since Artificial Intelligence's early beginnings, two-player games have been a domain of interest, and consistently delivered the following question: will computers ever be able to beat/outperform humans? Numerous researchers over time attempted various strategies/algorithms (search algorithms) to make intelligent agents reach their utility function quicker and in a more effective way than humans, which brought the point of "adversarial search" to the surface. I'm intrigued by this subject to explore to which degree have computers figured out how to outperform humans, and whether or not this domain has become obsolete. <br /><br />
 
