@@ -23,17 +23,17 @@ This paper is straightforwardly related to the third unit we have discussed in c
 
 As mentioned previously, there are various algorithms that were explained to outperform humans in two-player zero-sum games. In the following, we will partition the approaches into three areas: fully visible case, partially visible case, and use of reinforcement learning.<br /><br />
 
-#### 1.	Fully Visible Case #### <br />
+1.	Fully Visible Case <br />
 
 
 <br /><br /><br />
 
-#### 2.	Partially Visible Case #### <br />
+2.	Partially Visible Case <br />
 
 
 <br /><br /><br />
 
-#### 3.	Reinforcement Learning Case #### <br />
+3.	Reinforcement Learning Case <br />
 
 
 <br /><br /><br />
