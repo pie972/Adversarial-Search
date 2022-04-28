@@ -3,7 +3,7 @@
 * [I. Introduction](#introduction)
 * [II.	Linkage](#linkage)
 * [III.	Approaches](#approaches)
-  * [a.	Fully Visible Case](#1.-fully-visible-case)
+  * [a.	Fully Visible Case](#1-.-fully-visible-case)
   * [b.	Partially Visible Case](#2-partially-visible-case)
   * [c.	Reinforcement Learning Case](#3-reinforcement-learning-case)
 * [IV.	Prospects](#prospects)
