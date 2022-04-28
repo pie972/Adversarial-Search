@@ -1,4 +1,14 @@
-# Adversarial-Search #
+# Table of Content
+<!-- toc -->
+* [I.	Introduction](#I.-Introduction)
+* [Usage](#usage)
+* [Options](#options)
+  * [template](#template)
+  * [allowedChars](#allowedchars)
+* [API](#api)
+  * [toc](#toc)
+<!-- toc stop -->
+
 ## Research Paper ##
 
 ### I.	Introduction <br />
