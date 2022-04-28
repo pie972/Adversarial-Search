@@ -1,7 +1,7 @@
 # Table of Content
 <!-- toc -->
 * [Introduction](#introduction)
-* [Options](#options)
+* [II.	Linkage](##linkage)
   * [template](#template)
 * [API](#api)
   * [toc](#toc)
